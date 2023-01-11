@@ -1,2 +1,54 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+:root {
+    --fonte-padrao: 'Inter', sans-serif;
+}
+
+header > p {
+    font-size: 34pt;
+    font-weight: bolder;
+}
+
+nav {
+    text-align: right;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(126, 124, 124);
+    font-family: var(--fonte-padrao);
+    padding: 12px;
+}
+
+#headlines {
+    margin: auto;
+}
+
+#headlines > img {
+    width: 700px;
+    height: 280px;
+}
+
+#headlines > h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 36pt;
+}
+
+#headlines > p {
+    font-family: var(--fonte-padrao);
+    color: rgb(126, 124, 124);
+}
+
+button {
+    padding: 12px;
+    width: 170px;
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+    color: white;
+    background-color: brown;
+    border: none;
+}
