@@ -47,7 +47,7 @@
 
         <div>
             <h1>New</h1>
-            <a href="#">
+            <a href="#" class="press">
                 <h2>Hydrogen VS Electric Cars</h2>
             </a>
             <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
@@ -107,7 +107,12 @@
     </main>
 
     <script>
+        var a = window.document.getElementsByClassName('press')
+        a.addEventListener('click', clicar)
 
+        function clicar() {
+            a.style.background = 'orange';
+        }
     </script>
 </body>
 </html>
