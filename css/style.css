@@ -9,8 +9,17 @@
     margin: 0;
 }
 
+header > img {
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
 nav {
     text-align: right;
+    position: relative;
+    top: 20px;
+    right: 210px;
 }
 
 nav > a {
@@ -20,20 +29,36 @@ nav > a {
     padding: 16px; 
 }
 
+.container-img {
+    position: relative;
+    left: 200px;
+    top: 70px;
+}
+
 .container {
     width: 700px;
     display: flex;
+    position: relative;
+    left: 200px;
+    top: 110px;
+}
+
+.container-box {
+    position: relative;
+    top: -20px;
 }
 
 .container > div > h1 {
-    font-size: 32pt;
+    font-size: 38pt;
     font-family: 'Inter';
+    width: 270px;
 }
 
 .container > div > p {
     font-size: 12pt;
     font-family: 'Inter';
     color: hsl(236, 13%, 42%);
+    text-align: justify;
 }
 
 .container > div > button {
@@ -47,12 +72,11 @@ nav > a {
     font-stretch: narrower;
 }
 
-.container > div {
-    width: 280px;
-}
-
 #article {
-    width: 390px;
+    position: absolute;
+    top: -10px;
+    left: 370px;
+    width: 370px;
     line-height: 1.4em;
 }
 
@@ -60,9 +84,12 @@ nav > a {
     background-color: hsl(240, 100%, 5%);
     width: 290px;
     height: 436px;
+    padding: 20px 15px 20px 15px;
     display: flex;
     flex-direction: column;
-    padding: 20px 15px 20px 15px;
+    position: relative;
+    top: -395px;
+    left: 980px;
 }
 
 .new-container > div > h1 {
@@ -96,25 +123,60 @@ nav > a {
 .highlights-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: -320px;
+    left: -30px;
 }
 
-.highlights-container > div > h1 {
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 217px;
+    line-height: 1.6em;
+    float: right;
+    position: relative;
+    top: -170px;
+    left: 10px;
+}
+
+.box > h1{
     font-family: 'Inter';
     color: hsl(236, 13%, 42%);
 }
 
-.highlights-container > div > a {
+.box > a {
     font-family: 'Inter';
     text-decoration: none;
     color: hsl(240, 100%, 5%);
 }
 
-.highlights-container > div > p {
+.box > p {
     font-family: 'Inter';
     font-size: 12pt;
     color: hsl(236, 13%, 42%);
 }
 
-#retro, #laptop, #gaming {
-    width: 400px;
+.retro, .laptop, .gaming {
+    width: 350px;
 }
+
+.retro {
+    position: absolute;
+    left: 230px;
+}
+
+.laptop {
+    position: absolute;
+    left: 600px;
+}
+
+.gaming {
+    position: absolute;
+    left: 1010px;
+}
+
+
+
+
+
+
