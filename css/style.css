@@ -9,3 +9,86 @@
     margin: 0;
 }
 
+nav {
+    text-align: right;
+}
+
+nav > a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-family: 'Inter';
+    padding: 16px; 
+}
+
+.container {
+    width: 700px;
+    display: flex;
+}
+
+.container > div > h1 {
+    font-size: 32pt;
+    font-family: 'Inter';
+}
+
+.container > div > p {
+    font-size: 12pt;
+    font-family: 'Inter';
+    color: hsl(236, 13%, 42%);
+}
+
+.container > div > button {
+    background-color: hsl(5, 85%, 63%);
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: hsl(36, 100%, 99%);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-stretch: narrower;
+}
+
+.container > div {
+    width: 280px;
+}
+
+#article {
+    width: 390px;
+    line-height: 1.4em;
+}
+
+.new-container {
+    background-color: hsl(240, 100%, 5%);
+    width: 290px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 20px 15px;
+}
+
+.new-container > div > h1 {
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.new-container > div > a {
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 10pt;
+}
+
+.new-container > div > p {
+    color: hsl(236, 13%, 42%);
+    font-family: 'Inter';
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 1.8em;
+    font-size: 11pt;
+}
+
+.new-container > div > hr {
+    margin-bottom: 20px;
+    color: hsl(236, 13%, 42%);
+}
