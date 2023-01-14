@@ -92,3 +92,29 @@ nav > a {
     margin-bottom: 20px;
     color: hsl(236, 13%, 42%);
 }
+
+.highlights-container {
+    display: flex;
+    justify-content: center;
+}
+
+.highlights-container > div > h1 {
+    font-family: 'Inter';
+    color: hsl(236, 13%, 42%);
+}
+
+.highlights-container > div > a {
+    font-family: 'Inter';
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+.highlights-container > div > p {
+    font-family: 'Inter';
+    font-size: 12pt;
+    color: hsl(236, 13%, 42%);
+}
+
+#retro, #laptop, #gaming {
+    width: 400px;
+}
