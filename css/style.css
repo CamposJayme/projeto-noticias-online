@@ -174,3 +174,24 @@ nav > a {
     position: absolute;
     left: 1010px;
 }
+
+@media (max-width: 412px) {
+    .container-box {
+        position: relative;
+        left: -20%;
+    }
+
+    #article {
+        position: absolute;
+        left: -20%;
+        top: 90%;
+    }
+
+    .new-container {
+        position: relative;
+        left: 13%;
+        top: 300px;
+        width: 70%;
+    }
+} 
+
