@@ -38,7 +38,7 @@
             </p>
             <br>
 
-            <button>READ MORE</button>
+            <button><a href="#" style="text-decoration: none; color: white;">READ MORE</a></button>
         </div>  
 
     </main>
@@ -47,8 +47,8 @@
 
         <div>
             <h1>New</h1>
-            <a href="#" class="press">
-                <h2>Hydrogen VS Electric Cars</h2>
+            <a href="#">
+                <h2 id="first">Hydrogen VS Electric Cars</h2>
             </a>
             <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
             <hr>
@@ -56,7 +56,7 @@
 
         <div>
             <a href="#">
-                <h2>The Downsides of AI Artistry</h2>
+                <h2 id="second">The Downsides of AI Artistry</h2>
             </a>
             <p>What are the possible adverse effects of on-demand AI image generation?</p>
             <hr>
@@ -64,7 +64,7 @@
 
         <div>
             <a href="#">
-                <h2>Is VS Funding Drying Up?</h2>
+                <h2 id="third">Is VS Funding Drying Up?</h2>
             </a>
             <p>Private funding by VC firms is downs 50% YOY. We take a look at what that means.</p>
         </div>
@@ -107,11 +107,46 @@
     </main>
 
     <script>
-        var a = window.document.getElementsByClassName('press')
-        a.addEventListener('click', clicar)
+        //Tópico um do menu 'NEW'
+        //Ao clicar no link a cor muda para laranja, ao tirar o mouse sobre link volta pra cor original
+        var a = window.document.getElementById('first')
+        a.addEventListener('click', topic1)
+        a.addEventListener('mouseout', topic1out)
 
-        function clicar() {
-            a.style.background = 'orange';
+        function topic1(){
+            a.style.color = 'hsl(5, 85%, 63%)'
+        }
+
+        function topic1out(){
+            a.style.color = 'hsl(36, 100%, 99%)'
+        }
+
+        //Tópico dois do menu 'NEW'
+        //Ao clicar no link a cor muda para laranja, ao tirar o mouse sobre link volta pra cor original
+        var b = window.document.getElementById('second')
+        b.addEventListener('click', topic2)
+        b.addEventListener('mouseout', topic2out)
+
+        function topic2(){
+            b.style.color = 'hsl(5, 85%, 63%)'
+        }
+
+        function topic2out(){
+            b.style.color = 'hsl(36, 100%, 99%)'
+        }
+
+        //Tópico três do menu 'NEW'
+        //Ao clicar no link a cor muda para laranja, ao tirar o mouse sobre link volta pra cor original
+        var c = window.document.getElementById('third')
+        c.addEventListener('click', topic3)
+        c.addEventListener('mouseout', topic3out)
+
+        function topic3(){
+            c.style.color = 'hsl(5, 85%, 63%)'
+        }
+
+        function topic3out(){
+            c.style.color = 'hsl(36, 100%, 99%)'
         }
     </script>
 </body>
